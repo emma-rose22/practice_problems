@@ -10,19 +10,6 @@ def list_comp(nums, limit):
     # print([nums for (i + 1) in range(x) for ])
     pass
 
-#similar given example
-# ar = [] 
-# p = 0 
-# for i in range ( x + 1 ): 
-#     for j in range( y + 1):
-#         if i+j != n:
-#             ar.append([])
-#             ar[p] = [ i , j ] 
-#             p+=1 
-#             print(ar)
-
-# print [ [ i, j] for i in range( x + 1) for j in range( y + 1) if ( ( i + j ) != n )]
-
 def every_cube(x, y, z, limit):
     #have a master array
     array = []
